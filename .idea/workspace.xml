@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10a9eda1-e386-4b44-b49b-fc368f362f01" name="Changes" comment="Config the project">
+    <list default="true" id="10a9eda1-e386-4b44-b49b-fc368f362f01" name="Changes" comment="sore users in an array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703906581775</updated>
-      <workItem from="1703906583240" duration="4602000" />
+      <workItem from="1703906583240" duration="6700000" />
     </task>
     <task id="LOCAL-00001" summary="Config the project">
       <created>1703908760334</created>
@@ -59,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703908760334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1703911481350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703911481350</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sore users in an array">
+      <created>1703912372794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703912372794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Config the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config the project" />
+    <MESSAGE value="update" />
+    <MESSAGE value="sore users in an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="sore users in an array" />
   </component>
 </project>
