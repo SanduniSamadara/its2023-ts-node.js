@@ -1,21 +1,42 @@
 //const express = require app
 import express from 'express';
+import bodyParser from 'body-parser';
 
 //invoke the express
 const app = express();
 
-//GET http method
+//@ts-ignore
+app.use(bodyParser.json());
+
+interface User{
+
+    username: string,
+
+    fname: string,
+
+    lname: string,
+
+    email: string
+}
+
+let users: User[] = [];
+
+/**
+*
+GET http method
+ */
 app.get('/user/all', (req: express.Request, res: express.Response) => {
 
-    let data = {
+    /*let data = {
         _id: "C001",
         username: "pathum",
         fname: "pathum",
         lname: "silva",
         email: "pathum@ijse.lk"
-    }
-    res.send(data);
+    }*/
+    res.send(users);
 });
+
 
 
 app.post('/user',(req:express.Request, res:express.Response )=> {
