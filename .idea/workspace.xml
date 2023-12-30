@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10a9eda1-e386-4b44-b49b-fc368f362f01" name="Changes" comment="Config the project" />
+    <list default="true" id="10a9eda1-e386-4b44-b49b-fc368f362f01" name="Changes" comment="Config the project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    </list>
     <list id="0890ea2c-569b-4eda-86f4-25543ea46edb" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703906581775</updated>
-      <workItem from="1703906583240" duration="3887000" />
+      <workItem from="1703906583240" duration="4602000" />
     </task>
     <task id="LOCAL-00001" summary="Config the project">
       <created>1703908760334</created>

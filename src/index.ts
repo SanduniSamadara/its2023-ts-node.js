@@ -4,6 +4,7 @@ import express from 'express';
 //invoke the express
 const app = express();
 
+//GET http method
 app.get('/user/all', (req: express.Request, res: express.Response) => {
 
     let data = {
@@ -15,6 +16,15 @@ app.get('/user/all', (req: express.Request, res: express.Response) => {
     }
     res.send(data);
 });
+
+
+app.post('/user',(req:express.Request, res:express.Response )=> {
+    const req_body:any = req.body;
+    console.log(req_body);
+
+    res.send("OK!!");
+});
+
 
 //start the server
 app.listen(8081, () => {
